@@ -111,7 +111,7 @@ route_RPM = ShortestPathDijkstra(roadmap2.edges, roadmap2.edge_lengths, roadmap2
 route = GradientBasedPlanner (f, start, goal, 1000);
 [route_Astar, numExpanded] = AStarGrid (obstacle, start, goal);
 
-%% Plot route of to methods % TODO:
+%% Plot route of two methods % TODO:
 % Define colors
 green = [62 150 81]./255;
 red = [204 37 41]./255;

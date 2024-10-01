@@ -73,7 +73,7 @@ for i = 2:nsamples
         end
     end
     
-    fprintf (1, 'nsamples = %d, nedges = %d\n', i, nedges);
+    % fprintf (1, 'nsamples = %d, nedges = %d\n', i, nedges);
    
 end
 
